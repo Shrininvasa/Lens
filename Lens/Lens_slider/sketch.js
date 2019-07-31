@@ -16,6 +16,7 @@ function setup() {
   slider.style('width', '300px')
   times = 0;
   psv = slider.value(); pox = obj.x;
+  createp("Move this slider to move the object");
   //frameRate(120);
 }
 
